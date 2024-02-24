@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+
+read -p "Enter your username: " username
+
+
+if [[ "$username" != "Support" ]];
+ then
+    echo "Invalid username. Exiting."
+    exit 1
+fi
+
+read -s password
+
+if (( ${#password} < 8 ));
+ then
+    echo "Password must be 8 characters or more. Exiting."
+    exit 1
+fi
+
+
+echo "Login successful welcome $username."
+

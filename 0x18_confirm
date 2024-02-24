@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+username=$(whoami)
+user_info=$(id "$username")
+
+
+
+echo "Current User Information:"
+echo "Username: $username"
+echo "User ID and Group ID: $user_info"

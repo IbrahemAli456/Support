@@ -1,0 +1,11 @@
+#!/bin/bash
+
+path_dirs=($(echo "$PATH" | tr ':' '\n'))
+num_dirs=${#path_dirs[@]}
+
+if [ $num_dirs -eq 2 ];
+ then
+    echo "Requirement met"
+else
+    echo "Number of directories: $num_dirs"
+fi

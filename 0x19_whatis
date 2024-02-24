@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "cal - Display a calendar"
+
+echo "Description:"
+echo "The 'cal' command is used to display a calendar in the terminal. By default, it shows the current month. You can also specify a month and year to view a specific calendar. It provides a textual representation of the calendar, showing days, weeks, and months."
+
+echo "Usage:"
+echo "cal [options] [month] [year]"
+
+echo "Options:"
+echo "-1      Display a single month."
+echo "-3      Display the previous, current, and next months."
+echo "-y      Display a calendar for the entire year."
+
+echo "Examples:"
+echo "cal        # Display the calendar for the current month."
+echo "cal -3     # Display the previous, current, and next months."
+echo "cal 5 2022 # Display the calendar for May 2022."

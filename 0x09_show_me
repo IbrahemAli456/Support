@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+IFS=':' read -ra home_items <<< "$HOME"
+
+echo "Items in \$HOME variable:"
+for item in "${home_items[@]}"; do
+    echo "$item"
+done

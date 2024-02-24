@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+username=$(whoami)
+
+
+
+
+echo "You did a great job!"
+echo "You should be proud of yourself :)"
+echo "$username"

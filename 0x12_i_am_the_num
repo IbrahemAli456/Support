@@ -1,0 +1,13 @@
+#!/bin/bash
+
+while true; do
+    read -p "Please enter a number between 20 and 30: " user_input
+        if (( user_input >= 20 && user_input <= 30 )); then
+            echo "You entered a valid number: $user_input"
+            break
+        else
+            echo "Invalid number. Please enter a number between 20 and 30."
+        fi
+    
+      done
+

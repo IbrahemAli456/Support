@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+echo "Current aliases:"
+alias
+
+if alias | grep -q 'exec='; then
+    echo "'exec' alias already exists."
+else
+   
+    echo "Creating 'exec' alias..."
+    alias exec='chmod +x'
+    echo "Alias 'exec' created"
+fi

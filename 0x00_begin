@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+folder_name="Bash Scripting"
+mkdir "$folder_name"
+
+
+cd "$folder_name"
+
+
+touch 0x00_begin
+touch 0x01_hidden 
+touch 0x02_previous
+touch 0x03_alive
+touch 0x04_who
+touch 0x05_where_am_i
+touch 0x06_explore
+touch  0x07_count
+touch  0x08_conditions
+touch  0x09_show_me
+touch  0x11_do_f_exist
+touch  0x12_i_am_the_num
+touch   0x15_alias
+touch  0x17_validate_user
+touch   0x18_confirm
+touch  0x19_whatis
+touch  0x20_done
+
+echo "Folder content:"
+ls
+
